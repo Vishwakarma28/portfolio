@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Vishwakarma | MERN Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet"> -->
+        <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Placeholder for FontAwesome, might need a real CDN if this fails, using SVG icons fallback in code -->
+</head>
+
+<body>
+
+    <!-- Dynamic Mesh Background -->
+    <div class="mesh-background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="#" class="logo">AV.</a>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="https://github.com/Vishwakarma28" target="_blank" class="icon-link" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://wa.me/+919301736578" class="btn btn-sm btn-primary">Let's Talk</a>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu glass">
+            <a href="#hero" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <div class="badge">
+                    <span class="status-dot"></span> Available for work
+                </div>
+                <h1>Building digital <br> <span class="text-gradient">experiences</span> that matter.</h1>
+                <p class="hero-subtext">Hey, I'm <strong>Amit</strong> 👋. A MERN Stack Developer and Designer
+                    passionate about building accessible and user-centric web applications.</p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="https://wa.me/+919301736578" class="btn btn-secondary">Contact Me</a>
+                </div>
+
+                <div class="stats-bar glass glass-card">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="vr"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">companies.</span>
+                    </div>
+                    <div class="vr"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">6 m</span>
+                        <span class="stat-label">Exp.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-in-up delay-200">
+                <!-- Abstract visual representation -->
+                <div class="code-card glass">
+                    <div class="card-header">
+                        <div class="dots">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                        </div>
+                        <span class="filename">developer.ts</span>
+                    </div>
+                    <div class="card-body">
+                        <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'Amit'</span>,
+  <span class="property">role</span>: <span class="string">'Mern Stack Dev'</span>,
+  <span class="property">skills</span>: [
+    <span class="string">'Next.js'</span>, 
+    <span class="string">'React'</span>, 
+    <span class="string">'Node.js'</span>
+  ],
+  <span class="property">hardWorker</span>: <span class="boolean">true</span>
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-tag">About Me</span>
+                <h2>Crafting code with <span class="text-highlight">passion</span>.</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image-wrapper fade-in-up">
+                    <div class="about-image glass">
+                        <img src="AmitOfficeimg.jpg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="about-content fade-in-up delay-200">
+                    <p>I started my coding journey 1 year ago, and I haven't looked back since. I love the challenge of
+                        solving complex problems and the joy of creating something from nothing.</p>
+                    <p>I specialize in the MERN stack and Next.js, but I'm always exploring new technologies. My goal is
+                        to build applications that are not only functional but also performant and accessible.</p>
+
+                    <div class="tech-stack-preview">
+                        <h3>Tech Stack</h3>
+                        <div class="tech-icons">
+                            <div class="tech-icon" title="React"><i class="fab fa-react"></i></div>
+                            <div class="tech-icon" title="JavaScript"><i class="fab fa-js"></i></div>
+                            <div class="tech-icon" title="HTML5"><i class="fab fa-html5"></i></div>
+                            <div class="tech-icon" title="CSS3"><i class="fab fa-css3-alt"></i></div>
+                            <div class="tech-icon" title="Node.js"><i class="fab fa-node"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-tag">Services</span>
+                <h2>What I can do for <span class="text-highlight">you</span>.</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card glass fade-in-up">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building fast, responsive, and secure websites using modern technologies like Next.js and React.
+                    </p>
+                </div>
+                <div class="service-card glass fade-in-up delay-100">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                            <path d="M2 2l7.586 7.586"></path>
+                            <circle cx="11" cy="11" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive and aesthetically pleasing user interfaces that drive engagement and
+                        conversion.</p>
+                </div>
+                <div class="service-card glass fade-in-up delay-200">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Technical Writing</h3>
+                    <p>Documenting code, writing technical blog posts, and creating clear developer documentation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-tag">Portfolio</span>
+                <h2>Featured <span class="text-highlight">Projects</span>.</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass fade-in-up">
+                    <div class="project-image">
+                        <img src="Screenshot 2025-12-26 011158.png" alt="Percify Project">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Vishwakarma28/sarkaripage-main" class="btn-icon" aria-label="View Code"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg></a>
+                            <a href="https://www.sarkaripage.com/" class="btn-icon" aria-label="View Live"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>sarkaripage.com</h3>
+                        <p>A comprehensive platform for govt job preparation. Built with Next.js , node.js and
+                            Tailwind.</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Tailwind</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass fade-in-up delay-100">
+                    <div class="project-image">
+                        <img src="Screenshot 2025-12-26 012839.png" alt="ByteCrew Project">
+                        <div class="project-overlay">
+                            <!-- <a href="#" class="btn-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg></a> -->
+                            <a href="https://chasingheights.figma.site/" class="btn-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chasingheights</h3>
+                        <p>Agency website providing travel hospitality.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Tailwind</span>
+                            <!-- <span class="tag"></span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass fade-in-up delay-200">
+                    <div class="project-image">
+                        <img src="Screenshot 2025-12-26 014122.png" alt="AI Music Project">
+                        <div class="project-overlay">
+                            <a href="https://github.com/BeangatesITSolutions/Beangate/tree/amit" class="btn-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg></a>
+                            <a href="https://beangates.com/BG_Academy/" class="btn-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Beangate Academy</h3>
+                        <p>learing website for developer and Designer.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-tag">Tech Stack</span>
+                <h2>Tools I <span class="text-highlight">Master</span>.</h2>
+            </div>
+            <div class="tech-grid glass fade-in-up">
+                <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+                <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <div class="tech-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                <div class="tech-item"><i class="fab fa-node"></i><span>Node.js</span></div>
+                <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                <div class="tech-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+                <div class="tech-item"><i class="fab fa-figma"></i><span>Figma AI</span></div>
+                <div class="tech-item tailwindicon"><img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"/><span>Tailwind </span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-container glass">
+            <div class="footer-cta">
+                <h2>Ready to build something amazing?</h2>
+                <p>Let's turn your ideas into reality. Get in touch with me today.</p>
+                <a href="https://wa.me/+919301736578" class="btn btn-primary btn-lg">Say Hello 👋</a>
+            </div>
+
+            <div class="footer-links">
+                <div class="social-links">
+                    <a href="https://github.com/Vishwakarma28" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/+919301736578" class="social-link"><i class="fa-brands fa-whatsapp"></i> </a>
+                    <a href="https://www.linkedin.com/in/amit-343864269/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/amit_16__/" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 Amit. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
